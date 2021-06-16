@@ -2,7 +2,7 @@ import axios, { Method } from "axios";
 
 export interface RequestConfig {
     body?: any;
-    params?: { [key: string]: any }
+    params?: { [key: string]: string }
 }
 
 const apiUrl = () => {

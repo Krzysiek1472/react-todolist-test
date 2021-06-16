@@ -10,9 +10,20 @@ export class ToDoListApi {
         return axiosRequest<void>('/tasks/AddTask', 'POST', { body: task });
     }
 
+    static editTask(task: Task) {
+        return axiosRequest<void>('/tasks/EditTask', 'PUT', { body: task });
+    }
+
+    static getTask(id: number) {
+        const params = {
+            id: id.toString()
+        }
+        return axiosRequest<Task>('/tasks/GetTask', 'GET', { params });
+    }
+
     static removeTask(task: Task) {
         const params = {
-            id: task.id
+            id: task.id.toString()
         }
         return axiosRequest<void>('/tasks/RemoveTask', 'DELETE', { params });
     }

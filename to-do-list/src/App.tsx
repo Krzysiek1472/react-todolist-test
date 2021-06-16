@@ -1,7 +1,9 @@
 import * as React from 'react';
 import './App.css';
-import ToDoList from './pages/ToDoList/ToDoList';
-import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
+import ToDoListPage from './pages/ToDoListPage/ToDoListPage';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import EditTaskPage from './pages/EditTaskPage/EditTaskPage';
+import UserContext, { User } from './context/userContext';
 
 
 const AppRoutes = () => {
@@ -9,7 +11,10 @@ const AppRoutes = () => {
     <Router>
       <Switch>
         <Route exact path="/">
-          <ToDoList></ToDoList>
+          <ToDoListPage></ToDoListPage>
+        </Route>
+        <Route exact path="/edit/:id">
+          <EditTaskPage></EditTaskPage>
         </Route>
       </Switch>
     </Router>
@@ -17,8 +22,15 @@ const AppRoutes = () => {
 }
 
 function App() {
+  const user: User = {
+    firstName: 'Test first name',
+    lastName: 'Test last name'
+  }
+
   return (
-    <AppRoutes></AppRoutes>
+    <UserContext.Provider value={user}>
+      <AppRoutes></AppRoutes>
+    </UserContext.Provider>
   );
 }
 

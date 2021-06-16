@@ -30,6 +30,19 @@ namespace WebApplication1.Controllers
             return Ok();
         } 
         
+        [HttpGet]
+        public IActionResult GetTask([FromQuery] int id)
+        {        
+            return Ok(_todoService.GetTask(id));
+        }
+        
+        [HttpPut]
+        public IActionResult EditTask([FromBody] Task task)
+        {
+            _todoService.EditTask(task);
+            return Ok();
+        } 
+        
         [HttpDelete]
         public IActionResult RemoveTask([FromQuery] int id)
         {

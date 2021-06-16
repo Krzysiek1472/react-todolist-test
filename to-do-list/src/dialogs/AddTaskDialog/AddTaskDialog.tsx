@@ -15,12 +15,12 @@ export interface AddTaskDialogProps {
 }
 
 const AddTaskDialog = ({ open, itemAdded, handleCancel }: AddTaskDialogProps) => {
-    const handleAccept = (values: { name: string }, { setSubmitting }: FormikHelpers<{ name: string }>) => {
+    const handleAccept = (values: { name: string }, { resetForm }: FormikHelpers<{ name: string }>) => {
         itemAdded({
             id: 0,
             name: values.name
         });
-        setSubmitting(false);
+        resetForm();
     }
 
     return (
