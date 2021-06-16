@@ -1,0 +1,58 @@
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\appsettings.json
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.exe
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.deps.json
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.runtimeconfig.json
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.runtimeconfig.dev.json
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\ref\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.pdb
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.csprojAssemblyReference.cache
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\staticwebassets\WebApplication1.StaticWebAssets.xml
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.CopyComplete
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
+C:\Users\Krzysztof\Desktop\react nauka\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\appsettings.json
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.exe
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.deps.json
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.runtimeconfig.json
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.runtimeconfig.dev.json
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\ref\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\WebApplication1.pdb
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.csprojAssemblyReference.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\staticwebassets\WebApplication1.StaticWebAssets.xml
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.CopyComplete
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
+C:\Users\Krzysztof\Desktop\react-todolist\backend\react-test\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
