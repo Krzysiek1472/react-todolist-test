@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Task } from "../../models/Task";
-import { getAllTasks, removeTask } from "../../http/toDoListApi";
 import TaskItem from "../../components/TaskItem/TaskItem";
 import styled from 'styled-components';
 import { UseInit } from "../../utils/useInit";
 import { Button } from "@material-ui/core";
 import  AddTaskDialog  from '../../components/AddTaskDialog/AddTaskDialog';
+import { ToDoListApi } from "../../http/toDoListApi";
 
 const Header = styled.h1`
     font-size: 20px;
@@ -17,7 +17,7 @@ const ToDoList = () => {
     const [dialogOpened, setDialogOpened] = useState(false);
 
     const loadData = async () => {
-        const tasks = await getAllTasks();
+        const tasks = await ToDoListApi.getAllTasks();
         setTasks(tasks);
     }
 
@@ -29,12 +29,14 @@ const ToDoList = () => {
         console.log('edit', item)
     }
 
-    const addTask = (item: Task) => {
-        console.log('add new', item)
+    const addTask = async (item: Task) => {
+        await ToDoListApi.addTask(item);
+        toggleDialogOpen();
+        await loadData();
     }
 
     const deleteTask = async (item: Task) => {
-        await removeTask(item);
+        await ToDoListApi.removeTask(item);
         await loadData();
     }
 
@@ -48,7 +50,7 @@ const ToDoList = () => {
             {tasks.map(x =>
                 <TaskItem key={x.id} item={x} handleEdit={editTask} handleDelete={deleteTask}></TaskItem>
             )}
-            <Button onClick={toggleDialogOpen}>Add new</Button>
+            <Button variant="contained" color='primary' onClick={toggleDialogOpen}>Add new</Button>
 
             <AddTaskDialog open={dialogOpened} handleCancel={toggleDialogOpen} itemAdded={addTask}></AddTaskDialog>
         </>

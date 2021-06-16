@@ -6,7 +6,7 @@ export interface RequestConfig {
 }
 
 const apiUrl = () => {
-    if (process.env.NODE_ENV == 'development') {
+    if (process.env.NODE_ENV === 'development') {
         return 'http://localhost:5000';
     } else {
         return 'http://localhost:5000';

@@ -1,5 +1,5 @@
 
-import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField } from "@material-ui/core";
+import { Button, Dialog, DialogActions, DialogContent, DialogTitle, FormControl, FormHelperText, Input, InputLabel } from "@material-ui/core";
 import { Task } from "../../models/Task";
 import { Formik, FormikHelpers } from 'formik';
 import * as Yup from 'yup';
@@ -16,7 +16,10 @@ export interface AddTaskDialogProps {
 
 const AddTaskDialog = ({ open, itemAdded, handleCancel }: AddTaskDialogProps) => {
     const handleAccept = (values: { name: string }, { setSubmitting }: FormikHelpers<{ name: string }>) => {
-        console.log(values);
+        itemAdded({
+            id: 0,
+            name: values.name
+        });
         setSubmitting(false);
     }
 
@@ -39,18 +42,11 @@ const AddTaskDialog = ({ open, itemAdded, handleCancel }: AddTaskDialogProps) =>
                     <DialogTitle id="form-dialog-title">New Task</DialogTitle>
                     <form onSubmit={handleSubmit}>
                         <DialogContent>
-                            <TextField
-                                error={!!errors.name}
-                                autoFocus
-                                margin="dense"
-                                id="name"
-                                label="Name"
-                                type="text"
-                                fullWidth
-                                value={values.name}
-                                onChange={handleChange}
-                            />
-                            <span>{errors.name}</span>
+                            <FormControl error={!!errors.name}>
+                                <InputLabel>Name</InputLabel>
+                                <Input autoFocus name='name' value={values.name} onChange={handleChange} />
+                                <FormHelperText id="component-error-text">{errors.name}</FormHelperText>
+                            </FormControl>
                         </DialogContent>
                         <DialogActions>
                             <Button color="primary" type='button' onClick={handleCancel}>
